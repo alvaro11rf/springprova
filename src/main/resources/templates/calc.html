@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Suma de nums</h1>
+<form  method="post" action="/suma">
+    N1: <input type="number" name="n1"><br>
+    N2: <input type="number" name="n2"><br>
+    Op: <select type="select" name="tOp">
+    <option value="+"></option>
+    <option value="-"></option>
+    <option value="x"></option>
+    <option value="/"></option>
+    <input type="submit">
+
+</form>
+<div>
+    El resultat es:  <span>th:text="${resultat}"</span>
+</div>
+</body>
+</html>
